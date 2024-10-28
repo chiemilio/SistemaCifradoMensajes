@@ -51,7 +51,7 @@ public class CifradoBasico : Cifrado
         for (int i = 0; i < MensajeCopia.Length; i++)
         {
 
-            if (this.MensajeCopia[i] == 'z')
+            if (this.MensajeCopia[i] == 'z' )
             {
                 this.MensajeCopia = getMensajeOriginal().Replace(this.MensajeCopia[i], 'a');
             }
